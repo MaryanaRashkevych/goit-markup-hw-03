@@ -28,6 +28,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+/*SMALL*/
 .container {
   width: 1440px;
   padding-left: 156px;
@@ -36,15 +37,18 @@ img {
   margin-right: 0 auto;
 }
 /*=========HEADER=======*/
+.header {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+  border-bottom: 1px solid #e7e9fc;
+}
 .header-container {
   display: flex;
   flex-direction: row;
-  margin-left: auto;
-  margin-right: auto;
   flex-shrink: 0;
   justify-content: space-between;
   background: #fff;
-  border-bottom: 1px solid #e7e9fc;
 }
 .logo {
   color: #4d5ae5;
@@ -62,19 +66,20 @@ img {
 }
 .nav-container {
   display: flex;
-  align-self: center;
+  align-items: center;
 }
 .contacts {
   display: flex;
   flex-direction: row;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  align-items: center;
+  padding: 24px 0;
 }
 .nav-items {
   display: flex;
   flex-direction: row;
   gap: 40px;
+  padding: 24px 0;
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
@@ -111,10 +116,12 @@ img {
 }
 /*=========HERO SECTION=======*/
 .container-full {
-  background-color: #2e2f42;
   width: 1440px;
   margin-left: 0 auto;
   margin-right: 0 auto;
+}
+.hero-section {
+  background-color: #2e2f42;
 }
 .main-title {
   color: #fff;
