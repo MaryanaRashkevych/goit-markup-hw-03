@@ -283,10 +283,9 @@ img {
   background-color: #2e2f42;
 }
 .footer-container {
-  display: flex;
+  display: inline-block;
   flex-direction: column;
   justify-content: center;
-  display: inline-block;
 }
 .logo-footer {
   color: #4d5ae5;
