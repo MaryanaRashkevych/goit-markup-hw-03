@@ -286,6 +286,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  display: inline-block;
 }
 .logo-footer {
   color: #4d5ae5;
