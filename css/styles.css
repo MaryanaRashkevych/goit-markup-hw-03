@@ -44,6 +44,8 @@ img {
   flex-shrink: 0;
   justify-content: space-between;
   background: #fff;
+}
+.header {
   border-bottom: 1px solid #e7e9fc;
 }
 .logo {
@@ -154,7 +156,12 @@ img {
 }
 /*======== 2 Section ========*/
 .container-small {
-  padding: 120px 0x;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.container-test {
+  padding-left: 156px;
+  padding-right: 156px;
 }
 .second-title {
   color: #2e2f42;
@@ -208,7 +215,7 @@ img {
   padding-bottom: 32px;
 }
 /*======= 3 Section =======*/
-.container-dead3 {
+.container-team-section {
   padding: 120px 0;
 }
 
@@ -243,7 +250,7 @@ img {
   margin-bottom: 8px;
 }
 /*========= 4 Section ========*/
-.container-dead4 {
+.container-portfolio-section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
