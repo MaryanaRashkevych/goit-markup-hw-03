@@ -37,7 +37,6 @@ img {
 
 .header-container {
   padding: 0 15px;
-  border-bottom: 1px solid #e7e9fc;
   width: 1158px;
   margin: 0 auto;
   display: flex;
@@ -45,6 +44,7 @@ img {
   flex-shrink: 0;
   justify-content: space-between;
   background: #fff;
+  border-bottom: 1px solid #e7e9fc;
 }
 .logo {
   color: #4d5ae5;
@@ -69,12 +69,10 @@ img {
   flex-direction: row;
   gap: 40px;
   align-items: center;
-  padding: 24px 0;
 }
 .nav-items {
   display: flex;
   flex-direction: row;
-  padding: 24px 0;
   gap: 40px;
   color: #2e2f42;
   font-size: 16px;
@@ -85,7 +83,9 @@ img {
 .nav-links {
   color: #2e2f42;
   display: block;
+  padding: 24px 0;
 }
+
 .nav-links:hover {
   color: #404bbf;
 }
@@ -95,6 +95,7 @@ img {
 .address-container {
   font-style: normal;
   text-decoration: none;
+  padding: 24px 0;
 }
 .contacts-links {
   color: #434455;
@@ -153,7 +154,7 @@ img {
 }
 /*======== 2 Section ========*/
 .container-small {
-  padding: 120px 156px;
+  padding: 120px 0x;
 }
 .second-title {
   color: #2e2f42;
@@ -207,6 +208,10 @@ img {
   padding-bottom: 32px;
 }
 /*======= 3 Section =======*/
+.container-dead3 {
+  padding: 120px 0;
+}
+
 .team-container {
   background-color: #f4f4fd;
   padding: 120px 156px;
@@ -238,9 +243,11 @@ img {
   margin-bottom: 8px;
 }
 /*========= 4 Section ========*/
-.portfolio-container {
+.container-dead4 {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+.portfolio-container {
   padding-left: 156px;
   padding-right: 156px;
 }
@@ -264,9 +271,11 @@ img {
   margin-bottom: 8px;
 }
 /*======= Footer ======*/
-.footer-container {
-  background-color: #2e2f42;
+.container-dead-footer {
   padding: 100px 0;
+  background-color: #2e2f42;
+}
+.footer-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
