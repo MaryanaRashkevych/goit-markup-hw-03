@@ -288,9 +288,6 @@ img {
   justify-content: center;
 }
 .logo-footer {
-  display: inline-block;
-  margin-bottom: 16px;
-  margin-left: 156px;
   color: #4d5ae5;
   font-family: Raleway;
   font-size: 18px;
@@ -298,6 +295,9 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
+  margin-left: 156px;
 }
 .logo-word-white {
   color: #f4f4fd;
